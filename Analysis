@@ -1,0 +1,20 @@
+COMPSCI 308 - Software Design and Implementation
+Project One - Build a Game
+
+Mirror, by Gang Li
+Design Document
+
+Time Review:
+the project took me approximately 25 hours to complete, I started Sunday last week and finished Thursday. I worked steadily 5 hours/day, but less progress in the beginning compared to the last three days given that half of the time I spent was tring to understand some of the example codes and thinking about ways to design my game. 
+
+Status:
+I feel the code successfully reflected parts of the design
+Readability of the code was in large on par, but because of my lack of experience in coding, the interaction among classes is handled poorly, resulting in unintended effects in code.
+Extensibility is not as clear for my code, it should be done in the form of absract class so that subclasses can be built on top the master template. Features like defining the specific movement of the class require heavy modification if it were to be changed in the future.
+Testability can be achieved by running the game, I'm not familiar with other methods at this point.The easiest portion to would be the "paintframe" because the parameters can be readily accessible on the game screen. Harder parts would be require interaction between different objects and classes, they are harder to test.
+
+Conclusions:
+The interaction of classes require the most refactoring and require the most time to fix. it would be a good idea to break the classes down into even smaller functions so that both extensibility and testability can be more easily achieved
+
+Future Work:
+It would be on the boss level and the design of code itself. much like the conclusion, the code can be improved to look neater and more efficient. 
